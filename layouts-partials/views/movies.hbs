@@ -1,0 +1,6 @@
+{{!-- we iterate over the movies array --}}
+{{#each  movieList}}
+{{!-- this is the syntax to use a partial --}}
+{{!-- '>' 'name of the partial' 'data you want to pass to the partial'  --}}
+	{{> movieCard this}}
+{{/each}}
